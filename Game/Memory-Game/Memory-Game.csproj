@@ -201,6 +201,12 @@
     <EmbeddedResource Include="Store.resx">
       <DependentUpon>Store.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Documentation\Adviesrapport.docx" />
+    <None Include="Documentation\Behoeften_van_de_opdrachtgever.docx" />
+    <None Include="Documentation\Functioneel_ontwerp_memory_groep_7.docx" />
+    <None Include="Documentation\Screenshots.docx" />
+    <None Include="Documentation\technisch-ontwerp-2017.dotx.docx" />
+    <None Include="Documentation\Testrapport-memory game.docx" />
     <None Include="Memory-Game_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -662,6 +668,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Credits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\RequirementsAnalize en Moscow staan in FO.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
